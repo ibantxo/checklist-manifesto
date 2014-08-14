@@ -12,7 +12,7 @@ WHAT DO YOU NEED BEFORE RUNNING?
 ===============================
 1. MYSQL
 2. APACHE + PHP
-3. 
+3. EMAIL SMTP OUTGOING EMAIL SENDING
 
 INSTALL:
 =======
@@ -21,6 +21,11 @@ INSTALL:
     - user: "check-user"
     - pass: "checl-pass"
 2. IMPORT DATABASE FROM config/database.sql file.
+3. SET NEEDED PARAMETERES IN config/config.php
+    - DATABASE PARAMETERS
+    - EMAIL PARAMETERS
+    - DEFAULT PARAMETERS (password reset, verification...)
+
 3. ENABLE PROJECT FOLDER IN WEB-SERVER via /etc/apache2/default-server.conf 
 
 
