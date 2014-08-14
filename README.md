@@ -20,5 +20,10 @@ INSTALL:
     - name: "checklist"
     - user: "check-user"
     - pass: "checl-pass"
-2. IMPORT
-3. 
+2. IMPORT DATABASE FROM config/database.sql file.
+3. ENABLE PROJECT FOLDER IN WEB-SERVER via /etc/apache2/default-server.conf 
+
+
+THIS PROJECT INTEGRATES:
+> https://github.com/panique/php-login-advanced/tree/master
+
