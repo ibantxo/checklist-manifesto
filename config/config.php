@@ -73,7 +73,7 @@ define("EMAIL_SMTP_PORT", 25);
  * Configuration for: password reset email data
  * Set the absolute URL to password_reset.php, necessary for email password reset links
  */
-define("EMAIL_PASSWORDRESET_URL", "http://localhost/password_reset.php");
+define("EMAIL_PASSWORDRESET_URL", "http://localhost/checklist/password_reset.php");
 define("EMAIL_PASSWORDRESET_FROM", "no-reply@DOMAIN.COM");
 define("EMAIL_PASSWORDRESET_FROM_NAME", "Checklist");
 define("EMAIL_PASSWORDRESET_SUBJECT", "Password reset for Checklist");
