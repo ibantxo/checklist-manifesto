@@ -73,7 +73,7 @@ define("EMAIL_SMTP_PORT", 25);
  * Configuration for: password reset email data
  * Set the absolute URL to password_reset.php, necessary for email password reset links
  */
-define("EMAIL_PASSWORDRESET_URL", "http://******************/checklist/password_reset.php");
+define("EMAIL_PASSWORDRESET_URL", "http://localhost/password_reset.php");
 define("EMAIL_PASSWORDRESET_FROM", "no-reply@DOMAIN.COM");
 define("EMAIL_PASSWORDRESET_FROM_NAME", "Checklist");
 define("EMAIL_PASSWORDRESET_SUBJECT", "Password reset for Checklist");
@@ -83,7 +83,7 @@ define("EMAIL_PASSWORDRESET_CONTENT", "Please click on this link to reset your p
  * Configuration for: verification email data
  * Set the absolute URL to register.php, necessary for email verification links
  */
-define("EMAIL_VERIFICATION_URL", "http://*******************/checklist/register.php");
+define("EMAIL_VERIFICATION_URL", "http://localhost/checklist/register.php");
 define("EMAIL_VERIFICATION_FROM", "no-reply@DOMAIN.COM");
 define("EMAIL_VERIFICATION_FROM_NAME", "Checklist");
 define("EMAIL_VERIFICATION_SUBJECT", "Account activation for Checklist");
