@@ -94,7 +94,7 @@ while($row = mysql_fetch_assoc($query)){
 if ($selected_company_id>0){
 	echo $companys[$selected_company_id]->show('text');
 } else {
-	echo "ENPRESAK";
+	echo "COMPANIES";
 }
 ?>
 </title>
@@ -117,7 +117,7 @@ var currentCOMPANY_id = "<?php  echo $selected_company_id;  ?>";
 if ($selected_company_id>0){
 	echo "<h1><ul class=\"\">".$companys[$selected_company_id]->for_menu()."</h1>";
 } else {
-	echo "<h1>ENPRESAK</h1>";
+	echo "<h1>COMPANIES</h1>";
 }
 ?>
 
@@ -183,7 +183,7 @@ if ($selected_company_id>0){
 				echo $item_company;
 			}
 			echo "</ul>";
-			print "<a id=\"addButton_Company\" class=\"green-button\" href=\"#\">+ enpresa</a>";
+			print "<a id=\"addButton_Company\" class=\"green-button\" href=\"#\">+ company</a>";
 		}
 		
 		
