@@ -27,6 +27,14 @@ INSTALL:
     - DEFAULT PARAMETERS (password reset, verification...)
 
 3. ENABLE PROJECT FOLDER IN WEB-SERVER via /etc/apache2/default-server.conf 
+	Alias /checklist "/PATH_TO_THE_PROJECT/checklist/checklist-manifesto/members"
+	<Directory "/PATH_TO_THE_PROJECT/checklist/checklist-manifesto/members">
+	 Options All
+	 AllowOverride All
+	 Order allow,deny
+	 Allow from all
+	</Directory>
+
 
 
 THIS PROJECT INTEGRATES:
